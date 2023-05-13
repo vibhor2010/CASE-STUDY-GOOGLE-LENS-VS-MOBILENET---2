@@ -1,0 +1,54 @@
+p{
+    color: red;
+     letter-spacing: 3px;
+     font-size: 15px;
+}
+span{
+    letter-spacing: 3px;
+}
+#mobilenet{
+    letter-spacing: 3px;
+}
+.img{
+    margin-top: 1px;
+    margin-bottom: 10px;
+    height: 300px;
+    border-radius: 10px;
+}
+.white1{
+    color: white;
+} 
+.span{
+    letter-spacing: 3px;
+    color: red;
+}
+b{
+    color: purple;
+}
+.first,.second{
+    background-color: white;
+    border-radius: 10px;
+    line-height: 2px;
+}
+.test_image_and_result{
+    margin-top: 15px;
+    background-color:lightgray;
+    border-radius: 10px;
+    box-shadow: 1px 1px 25px gray;
+    width: 99%;
+    margin-bottom: 15px;
+}
+.google_lens{
+    color: black;
+}
+h4{
+    color: white;
+    font-weight: bold;
+}
+.bottom{
+    color: red;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Roboto Slab',serif;
+}

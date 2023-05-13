@@ -1,0 +1,130 @@
+<html>
+<head>
+<title>Real time image identificion</title>
+<meta name="viewport" content="width=device-width",initial-scale="1.0">
+   <link rel="stylesheet"
+   href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.js"></script>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com"crossorigin>
+   <link  href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
+   rel="stylesheet">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/P5.js/1.0.0/P5.js"></script>
+   <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+   
+   <link rel="stylesheet" type="text/css"href="style.css"> 
+  
+</head>
+<body>
+ <center>  
+   <p>CASE STUDY GOOGLE LENS VS MOBILENET</p>
+   <span class="google_lens">GOOGLE LENS<img src="https://www.androidpolice.com/wp-content/uploads/2019/05/google-lens-new-icon.png">
+   </span>
+   <p>VS</p>
+   <p id="MOBILENET                  " class="btn btn-primary">MOBILENET</p>
+   <hr>
+   <ol>
+      <div class="test_image_and_result col-xs-12">
+         <li class="col-sm-4 col-xs-12">
+            <b class="white-1">test image-</b>
+            <img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnoWHe1M6MKzaGnhP5eOGLXJ8-whdSaLjWYIged4MIzw&s">
+         </li>
+         <h5 class="first col-sm-4 col-xs-12">
+            output on -<b>GOOGLE LENS</b>-
+            <span>apple</span>
+         </h5>
+         <h5 class="second col-sm-4 col-xs-12">
+            output on -<b>MOBILENET</b>
+            <span>apple</span>
+         </h5>
+      <div class="mini_result" class="col-xs-12">
+         <h4>Result - </h4>
+         <hr>
+         <h4>draw</h4>
+      </div>
+      </div>
+      <div class="test_image_and_result col-xs-12">
+         <li class="col-sm-4 col-xs-12">
+            <b class="white-1">test image-</b>
+            <img class="img" src="download.png">
+         </li>
+         <h5 class="first col-sm-4 col-xs-12">
+            output on -<b>GOOGLE LENS</b>-
+            <span>desert spoon</span>
+         </h5>
+         <h5 class="second col-sm-4 col-xs-12">
+            output on -<b>MOBILENET</b>
+            <span>spoon</span>
+         </h5>
+      <div class="mini_result" class="col-xs-12">
+         <h4>Result - </h4>
+         <hr>
+         <h4>google lens</h4>
+      </div>
+      </div>
+
+      <div class="test_image_and_result col-xs-12">
+         <li class="col-sm-4 col-xs-12">
+            <b class="white-1">test image-</b>
+            <img class="img" src="download (1).jpg">
+         </li>
+         <h5 class="first col-sm-4 col-xs-12">
+            output on -<b>GOOGLE LENS</b>-
+            <span>football</span>
+         </h5>
+         <h5 class="second col-sm-4 col-xs-12">
+            output on - <b>MOBILENET</b>
+            <span>football</span>
+         </h5>
+      <div class="mini_result" class="col-xs-12">
+         <h4>Result - </h4>
+         <hr>
+         <h4>draw</h4>
+      </div>
+      </div>
+
+      <div class="test_image_and_result col-xs-12">
+         <li class="col-sm-4 col-xs-12">
+            <b class="white-1">test image-</b>
+            <img class="img" src="download.jpg">
+         </li>
+         <h5 class="first col-sm-4 col-xs-12">
+            output on -<b>GOOGLE LENS</b>-
+            <span>banana</span>
+         </h5>
+         <h5 class="second col-sm-4 col-xs-12">
+            output on -<b>MOBILENET</b>
+            <span>banana</span>
+         </h5>
+      <div class="mini_result" class="col-xs-12">
+         <h4>Result - </h4>
+         <hr>
+         <h4>draw</h4>
+      </div>
+      </div>
+
+      <div class="test_image_and_result col-xs-12">
+         <li class="col-sm-4 col-xs-12">
+            <b class="white-1">test image-</b>
+            <img class="img" src="pngtree-stereo-glass-bottle-image_1249247.jpg">
+         </li>
+         <h5 class="first col-sm-4 col-xs-12">
+            output on -<b>GOOGLE LENS</b>-
+            <span>glass bottle</span>
+         </h5>
+         <h5 class="second col-sm-4 col-xs-12">
+            output on -<b>MOBILENET</b>
+            <span>bottle</span>
+         </h5>
+      <div class="mini_result" class="col-xs-12">
+         <h4>Result - </h4>
+         <hr>
+         <h4>google lens</h4>
+      </div>
+      </div>
+   </ol>
+   <p class="bottom"> Developed by : Vibhor Shukla</p>
+</center>
+</body>     
+</html>
